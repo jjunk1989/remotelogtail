@@ -1,0 +1,16 @@
+name: remotelogtail
+server: localhost
+serverPort: 5514
+logfiles:
+  - name: test1.log
+    path: .\
+    app:  test1
+    host: myhost1
+    mail: fcx@pingxingyun.com
+    version: 0.0.1
+  - name: test2.log
+    path: .\
+    app:  test2
+    host: myhost2
+    mail: test@test.com
+    version: 3.2.1
