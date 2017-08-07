@@ -1,6 +1,6 @@
 #
 
-Small soft for tail log to remote server ekanited.
+Small soft for tail log and send to remote server ekanited.
 
 Base on
 
