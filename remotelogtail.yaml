@@ -6,7 +6,7 @@ logfiles:
     path: .\
     app:  test1
     host: myhost1
-    mail: fcx@pingxingyun.com
+    mail: test@test.com
     version: 0.0.1
   - name: test2.log
     path: .\

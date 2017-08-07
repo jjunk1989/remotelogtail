@@ -1,29 +1,39 @@
+#
 
-###  配置
+Small soft for tail log to remote server ekanited.
 
-配置文件名称:
+Base on
 
-> pxylogtail.yaml
+![](https://github.com/crewjam/rfc5424)
+![](https://github.com/hpcloud/tail)
+![](https://github.com/hpcloud/tail)
 
-配置文件格式:yaml
+###  Config
 
-配置文件路径:
+Config name:
+
+> remotelogtail.yaml
+
+format:yaml
+
+Config file find path:
+
 
 * .
 * .\config
-* $HOME/.pxylogtail
+* $HOME/.remotelogtail
 
 ```
-name: pxylogtail 
+name: remotelogtail 
 server:localhost                  # log server
 serverPort:5514                   # log server port
 logfiles:
-  - name: test1.log               # log 文件名
-    path: .\                      # log 文件路径   
-    app:  test1                   # 应用名称
-    host: myhost1                 # 应用主机名
-    mail: fcx@pingxingyun.com     # mail
-    version: 0.0.1                # 版本号
+  - name: test1.log               # log file name
+    path: .\                      # log path   
+    app:  test1                   # App name
+    host: myhost1                 # server host
+    mail: test@test.com    		  # mail
+    version: 0.0.1                # version
   - name: test2.log
     path: .\
     app:  test2
@@ -32,13 +42,9 @@ logfiles:
     version: 3.2.1
 ```
 
-日志采集系统使用 https://github.com/ekanite/ekanite
+remote server https://github.com/ekanite/ekanite
 
-日志协议： RFC5424 
-
-只支持 TCP
-
-#### ekanite 配置 
+#### ekanite config 
 
 ```
 ekanited [options]
