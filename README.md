@@ -4,9 +4,9 @@ Small soft for tail log to remote server ekanited.
 
 Base on
 
-![](https://github.com/crewjam/rfc5424)
-![](https://github.com/hpcloud/tail)
-![](https://github.com/hpcloud/tail)
+![rfc5424](https://github.com/crewjam/rfc5424)
+![tail](https://github.com/hpcloud/tail)
+![viper](https://github.com/spf13/viper)
 
 ###  Config
 
